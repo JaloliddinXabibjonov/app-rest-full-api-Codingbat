@@ -25,10 +25,10 @@ public class Answer {
 
     private String description;
 
-    @OneToOne
+    @ManyToOne
     private User user;
 
-    @OneToOne
+    @ManyToOne
     private Task task;
 
 
